@@ -70,7 +70,7 @@ const CheckoutForm = ({ handleClose }: { handleClose: () => void }) => {
           control={form.control}
           name="name"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className="col-span-2 sm:col-span-1">
               <FormLabel>الاسم</FormLabel>
               <FormControl>
                 <Input {...field} />
@@ -83,7 +83,7 @@ const CheckoutForm = ({ handleClose }: { handleClose: () => void }) => {
           control={form.control}
           name="phone"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className="col-span-2 sm:col-span-1">
               <FormLabel>رقم الجوال</FormLabel>
               <FormControl>
                 <Input {...field} />
@@ -96,7 +96,7 @@ const CheckoutForm = ({ handleClose }: { handleClose: () => void }) => {
           control={form.control}
           name="city"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className="col-span-2 sm:col-span-1">
               <FormLabel>المدينة</FormLabel>
               <FormControl>
                 <Input {...field} />
@@ -109,7 +109,7 @@ const CheckoutForm = ({ handleClose }: { handleClose: () => void }) => {
           control={form.control}
           name="addressDetails"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className="col-span-2 sm:col-span-1">
               <FormLabel>تفاصيل العنوان</FormLabel>
               <FormControl>
                 <Input {...field} />
